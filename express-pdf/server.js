@@ -1,8 +1,6 @@
 const express = require("express")
 const server = express()
 var PdfPrinter = require('pdfmake');
-var fs = require('fs');
-
 var fonts = {
     Roboto: {
         normal: 'fonts/Roboto-Regular.ttf',
